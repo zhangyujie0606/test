@@ -16,7 +16,7 @@
   ............
   // Create socket object
   _socket = rws_socket_create();
-  [text](#https://192.168.168.36)
+  [text https://192.168.168.36](https://192.168.168.36)
 ```
 ##### Set websocket connection url
 ```c
