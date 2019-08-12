@@ -6,6 +6,10 @@ keywords:
 license: MIT                                   # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
 logo: http://192.168.0.178:8090/download/attachments/26632632/package.png
 
+depends:
+  - libc
+  - bt
+
 source_file:
   - src/*.c
   - src/*.S
@@ -13,9 +17,20 @@ source_file:
 build_config:
   include:
     - include
-  cflag: "test zl"                             # C 编译器所需要要的编译参数
+  cflag: "test zp"                             # C 编译器所需要要的编译参数
+  cxxflag: "$%^&*(r4; rw4t4 4342; 424354"
+  asmflag: "testasm; r3efw ret5; 11 22"
   define:                                      # 宏定义
     - CONFIG_USING_TLS
+
+link_config:
+  path:                                     
+    - src
+    - boards
+  library:                                     
+    - libc
+    - sdk
+
 
 install:
   - dest: include
