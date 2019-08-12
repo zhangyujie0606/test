@@ -4,6 +4,7 @@ keywords:
   - websocket
   - network
 license: MIT                                   # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
+logo: http://img1.imgtn.bdimg.com/it/u=4289609089,1236661732&fm=26&gp=0.jpg
 
 source_file:
   - src/*.c
