@@ -16,20 +16,12 @@ build_config:
     - include/  
     - ../
     - ./
-    
-   include:
-       - src/
    
   cflag: "zn  test $%^&*()  "                             # C 编译器所需要要的编译参数
-  cflag: "test "  
   
   define:                                      # 宏定义
     - CONFIG_USING_TLS    NUM_ARGS
     - TEST!
-
-  define:
-      - TEST1
-      - test2
 
 install:
   - dest: include
