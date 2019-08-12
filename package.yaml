@@ -3,7 +3,7 @@ description: dfghjkl
 keywords:
   - websocket
   - network
-license: MIT                                   # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
+license: MIT @#$%^&*()                                  # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
 
 source_file:
   - src/*.c
