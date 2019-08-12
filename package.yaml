@@ -4,7 +4,7 @@ keywords:
   - websocket
   - network
 license: MIT                                   # GPLv2，LGPLv2.1，MIT，Apache license v2.0，BSD
-logo: http://192.168.0.178:8090/download/attachments/26632632/timg.jpg?api=v2
+logo: http://192.168.0.178:8090/download/attachments/26632632/timg.bmp?api=v2
 
 source_file:
   - src/*.c
@@ -13,7 +13,7 @@ source_file:
 build_config:
   include:
     - include
-  cflag: "test zb"                             # C 编译器所需要要的编译参数
+  cflag: "test zk"                             # C 编译器所需要要的编译参数
   define:                                      # 宏定义
     - CONFIG_USING_TLS
 
