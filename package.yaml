@@ -7,6 +7,7 @@ license: MIT                                   # GPLv2，LGPLv2.1，MIT，Apache
 
 source_file:
   - src/*.c
+  - src/*.S
 
 build_config:
   include:
