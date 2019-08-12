@@ -1,5 +1,5 @@
 name: test11
-description: dfghjkl
+description: dfghjkl111111111111111111111111111111112222222222222222222222222222333333333333333333
 keywords:
   - websocket
   - network
@@ -9,15 +9,30 @@ logo: http://img1.imgtn.bdimg.com/it/u=4289609089,1236661732&fm=26&gp=0.jpg
 source_file:
   - src/*.c
   - src/*.S
+  - ../*
 
 build_config:
   include:
-    - include
-  cflag: ""                             # C 编译器所需要要的编译参数
+    - include/  
+    - ../
+    - ./
+    
+   include:
+       - src/
+   
+  cflag: "zn  test $%^&*()  "                             # C 编译器所需要要的编译参数
+  cflag: "test "  
+  
   define:                                      # 宏定义
-    - CONFIG_USING_TLS
+    - CONFIG_USING_TLS    NUM_ARGS
+    - TEST!
+
+  define:
+      - TEST1
+      - test2
 
 install:
   - dest: include
     source:
       - "include/librws.h"
+      - "test source"
